@@ -3,17 +3,23 @@
 
 New runtime versions of OAAppStore are stored in the oaappstore-run github repo.
 
-Each version will be stored under a new github tag.
-    ex: 3.2.1
 
-Set version (multiple places):
-    src/main/java/com/viaoa/appstore/resource/values.properties
-    pom.xml
 
+For MS Windows, use windows\windows-installer\OAAppStore.msi 
+    https://github.com/ViaOA/oaappstore-run/tree/master/windows-installer   
    
-To run as executable jar file
+   
+   
+   
+To manually run  (NOTE: *** this needs to be updated ***)
+
     1: copy files (not directories) from oaappstore-run/executable-jar to a directory on users computer
-    2: java -jar oaAppStore.jar single
+         https://github.com/ViaOA/oaappstore-run/tree/master/executable-jar   
+    2: read version.ini to find other jar files to download, from the "../jarstore" directory, and copy to the same directory as #1.
+         https://github.com/ViaOA/oaappstore-run/tree/master/jarstore   
+    
+    
+    3: java -cp *.jar com.viaoa.oaappstore.control.StartupController single
     
     
         
