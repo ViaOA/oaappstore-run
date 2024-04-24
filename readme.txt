@@ -1,4 +1,30 @@
 
+
+
+Adding / Updating a project to OAAppStore
+
+** using oatemplate as an example
+
+build the project (mvn install)
+
+update files:
+    OAAppStore-Run\appstore\com\viaoa\oatemplate
+        version.ini
+            update with changes (version, release, file names, etc) 
+
+copy the new target\oatemplate-0.0.1.jar file (not oatemplate.jar, which is an uber jar) to
+    OAAppStore-Run\jarstore\com\viaoa\oatemplate
+
+commit project OAAppStore-Run
+
+
+
+
+
+
+
+
+
 ** See: OAAppStore jpackage/readme.txt
 
 New runtime versions of OAAppStore are stored in the oaappstore-run github repo.
@@ -22,4 +48,7 @@ To manually run  (NOTE: *** this needs to be updated ***)
     3: java -cp *.jar com.viaoa.oaappstore.control.StartupController single
     
     
+
+
+
         
