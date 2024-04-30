@@ -1,5 +1,28 @@
 
 
+github Project used to hold OAAppStore installer and any Java Application created using OABuilder.
+The windows installer will load the latest release of OAAppStore
+
+All OABuilder Apps are then stored in the following root direcorties:
+
+Runtime directory files, ex: server.ini, client.ini, single.ini
+    https://github.com/ViaOA/oaappstore-run/raw/master/appstore
+examples:
+    com/viaoa/oaappstore/version.ini 
+    com/viaoa/oaappstore/single.ini 
+
+Jar file and dependency jar files:
+    https://github.com/ViaOA/oaappstore-run/raw/master/jarstore
+
+examples:
+com/viaoa/oa-core-3.7.7.jar
+com/viaoa/oa-jfc-3.7.7.jar
+com/viaoa/dependency-uber-1.0.0.jar
+ 
+OAAppStore uses the same directory sturcture on Windows, where it was installed.
+ 
+=========================================
+
 
 Adding / Updating a project to OAAppStore
 
